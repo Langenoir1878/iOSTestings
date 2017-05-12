@@ -47,6 +47,7 @@
 		E060D6FD1EC569B80007387D /* Hackathon-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hackathon-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E060D7011EC569B80007387D /* Hackathon_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hackathon_iOSUITests.swift; sourceTree = "<group>"; };
 		E060D7031EC569B80007387D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E060D7101EC58AD20007387D /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +104,7 @@
 				E060D6E81EC569B80007387D /* Assets.xcassets */,
 				E060D6EA1EC569B80007387D /* LaunchScreen.storyboard */,
 				E060D6ED1EC569B80007387D /* Info.plist */,
+				E060D7101EC58AD20007387D /* Header.h */,
 			);
 			path = "Hackathon-iOS";
 			sourceTree = "<group>";
@@ -510,6 +512,7 @@
 				E060D7081EC569B80007387D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E060D7091EC569B80007387D /* Build configuration list for PBXNativeTarget "Hackathon-iOSTests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +521,7 @@
 				E060D70B1EC569B80007387D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E060D70C1EC569B80007387D /* Build configuration list for PBXNativeTarget "Hackathon-iOSUITests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +530,7 @@
 				E060D70E1EC569B80007387D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

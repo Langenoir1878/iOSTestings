@@ -21,18 +21,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="s7S-ZA-lHH">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="s7S-ZA-lHH">
+                                <rect key="frame" x="0.0" y="44" width="375" height="623"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </webView>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FtF-Td-LEN">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem id="UAV-mx-CYh"/>
+                                </items>
+                            </navigationBar>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstAttribute="trailing" secondItem="s7S-ZA-lHH" secondAttribute="trailing" id="8EQ-4Q-EhA"/>
-                            <constraint firstItem="s7S-ZA-lHH" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="OPU-SZ-5Zk"/>
-                            <constraint firstItem="s7S-ZA-lHH" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="UWJ-rz-fJc"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="s7S-ZA-lHH" secondAttribute="bottom" id="ZVr-HX-JMe"/>
-                        </constraints>
                     </view>
                     <connections>
                         <outlet property="MIS_WebView" destination="s7S-ZA-lHH" id="reh-z7-znq"/>

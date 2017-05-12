@@ -16,7 +16,10 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        let url = URL(string: "http://www.morningstar.com/stocks/xnas/goog/quote.html")
+        var parsedLogoDirect = "goog"
+        var finURLstring = "http://www.morningstar.com/stocks/xnas/" + parsedLogoDirect + "/quote.html"
+        
+        let url = URL(string: finURLstring)
         MIS_WebView.loadRequest(URLRequest(url: url!))
     }
 
